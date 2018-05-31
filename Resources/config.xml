@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element scope="shop" required="true" type="boolean">
+            <name>showButtonDesktop</name>
+            <label lang="en">Show Button Desktop</label>
+            <label lang="de">Button Desktop anzeigen</label>
+            <value>true</value>
+            <options>
+                <helpText lang="en">Option to display the button on desktop viewport.</helpText>
+                <helpText lang="de">Option um den Button auf dem Desktop Viewport anzuzeigen.</helpText>
+            </options>
+        </element>
+
+        <element scope="shop" required="true" type="boolean">
+            <name>showButtonMobile</name>
+            <label lang="en">Show Button Mobile</label>
+            <label lang="de">Button Mobile anzeigen</label>
+            <value>true</value>
+            <options>
+                <helpText lang="en">Option to display the button on mobile viewport.</helpText>
+                <helpText lang="de">Option um den Button auf dem Mobile Viewport anzuzeigen.</helpText>
+            </options>
+        </element>
+
+        <element scope="shop" required="true" type="color">
+            <name>backgroundColor</name>
+            <label lang="en">Background color</label>
+            <label lang="de">Hintergrundfarbe</label>
+            <value>#ffffff</value>
+            <options>
+                <helpText lang="en">Option to define the background color of the button.</helpText>
+                <helpText lang="de">Option, welche die Hintergrundfarbe des Buttons definiert.</helpText>
+            </options>
+        </element>
+
+        <element scope="shop" required="true" type="color">
+            <name>frameColor</name>
+            <label lang="en">Frame color</label>
+            <label lang="de">Rahmenfarbe</label>
+            <value>#000000</value>
+            <options>
+                <helpText lang="en">Option to define the frame color of the button.</helpText>
+                <helpText lang="de">Option, welche die Rahmenfarbe des Buttons definiert.</helpText>
+            </options>
+        </element>
+
+        <element scope="shop" required="true" type="color">
+            <name>arrowColor</name>
+            <label lang="en">Arrow color</label>
+            <label lang="de">Pfeilfarbe</label>
+            <value>#000000</value>
+            <options>
+                <helpText lang="en">Option to define the arrow color of the button.</helpText>
+                <helpText lang="de">Option, welche die Pfeilfarbe des Buttons definiert.</helpText>
+            </options>
+        </element>
+
+        <element scope="shop" required="true" type="text">
+            <name>arrowIconClass</name>
+            <label lang="en">Arrow icon-class</label>
+            <label lang="de">Pfeil Icon-Klasse</label>
+            <value>icon--arrow-up</value>
+            <options>
+                <helpText lang="en">Option to define the arrow icon-class.</helpText>
+                <helpText lang="de">Option, welche die die Icon-Klasse des Pfeils definiert.</helpText>
+            </options>
+        </element>
+
+        <element scope="shop" required="true" type="select">
+            <name>buttonForm</name>
+            <label lang="en">Button form</label>
+            <label lang="de">Buttonform</label>
+            <value>square</value>
+            <store>
+                <option>
+                    <value>square</value>
+                    <label lang="en">Square</label>
+                    <label lang="de">Quadrat</label>
+                </option>
+                <option>
+                    <value>circle</value>
+                    <label lang="en">Circle</label>
+                    <label lang="de">Kreis</label>
+                </option>
+            </store>
+            <options>
+                <helpText lang="en">Option to define the form of the button.</helpText>
+                <helpText lang="de">Option, welche die Form des Buttons definiert.</helpText>
+            </options>
+        </element>
+
+        <element scope="shop" required="true" type="select">
+            <name>buttonPosition</name>
+            <label lang="en">Button position</label>
+            <label lang="en">Buttonposition</label>
+            <value>right</value>
+            <store>
+                <option>
+                    <value>left</value>
+                    <label lang="en">Left</label>
+                    <label lang="de">Links</label>
+                </option>
+                <option>
+                    <value>center</value>
+                    <label lang="en">Center</label>
+                    <label lang="de">Mittig</label>
+                </option>
+                <option>
+                    <value>right</value>
+                    <label lang="en">Right</label>
+                    <label lang="de">Rechts</label>
+                </option>
+            </store>
+            <options>
+                <helpText lang="en">Option to define the position of the button.</helpText>
+                <helpText lang="de">Option, welche die Position des Buttons definiert.</helpText>
+            </options>
+        </element>
+
+        <element scope="shop" required="true" type="text">
+            <name>buttonMarginRight</name>
+            <label lang="en">Button margin to right</label>
+            <label lang="de">Buttonabstand nach rechts</label>
+            <value>50px</value>
+            <options>
+                <helpText lang="en">Option to define the margin to right of the button.</helpText>
+                <helpText lang="de">Option, welche den Abstand nach rechts des Buttons definiert.</helpText>
+            </options>
+        </element>
+
+        <element scope="shop" required="true" type="text">
+            <name>buttonMarginBottom</name>
+            <label lang="en">Button margin to bottom</label>
+            <label lang="de">Buttonabstand nach unten</label>
+            <value>50px</value>
+            <options>
+                <helpText lang="en">Option to define the margin to bottom of the button.</helpText>
+                <helpText lang="de">Option, welche den Abstand nach unten des Buttons definiert.</helpText>
+            </options>
+        </element>
+
+        <element scope="shop" required="true" type="text">
+            <name>buttonMarginLeft</name>
+            <label lang="en">Button margin to left</label>
+            <label lang="de">Buttonabstand nach links</label>
+            <value>0</value>
+            <options>
+                <helpText lang="en">Option to define the margin to left of the button.</helpText>
+                <helpText lang="de">Option, welche den Abstand nach links des Buttons definiert.</helpText>
+            </options>
+        </element>
+    </elements>
+</config>

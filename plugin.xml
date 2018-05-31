@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label>NetcomScrollToTop</label>
+    <version>1.0.0</version>
+    <link>https://www.netshops.de</link>
+    <author>Netshops Commerce GmbH</author>
+    <compatibility minVersion="5.3.0"/>
+    <description>Integrates a configurable scroll to top button.</description>
+    <copyright>Netshops Commerce GmbH</copyright>
+    <changelog version="1.0.0">
+        <changes>Release of this plugin.</changes>
+    </changelog>
+</plugin>
