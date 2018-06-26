@@ -1,6 +1,6 @@
 <?php
 
-namespace NetcomScrollToTop\Components\Subscriber;
+namespace NetcomScrollToTop\Subscriber;
 
 use NetcomScrollToTop\Components\Services\PluginConfigurationService;
 
