@@ -15,8 +15,8 @@
             <argument type="service" id="service_container"/>
         </service>
 
-        <service class="NetcomScrollToTop\Components\Subscribers\FrontendSubscriber"
-                 id="netcom_scroll_to_top.components.subscribers.frontend_subscriber">
+        <service class="NetcomScrollToTop\Subscriber\FrontendSubscriber"
+                 id="netcom_scroll_to_top.subscriber.frontend_subscriber">
             <argument type="string">%netcom_scroll_to_top.plugin_dir%</argument>
             <argument type="service" id="netcom_scroll_to_top.components.services.plugin_configuration_service"/>
             <tag name="shopware.event_listener"
