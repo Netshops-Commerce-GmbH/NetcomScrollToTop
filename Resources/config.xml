@@ -24,11 +24,39 @@
             </options>
         </element>
 
+        <element scope="shop" required="true" type="select">
+            <name>buttonStyle</name>
+            <label lang="en">Button style</label>
+            <label lang="de">Button Style</label>
+            <value>is--custom</value>
+            <store>
+                <option>
+                    <value>btn is--primary</value>
+                    <label lang="en">Primary button</label>
+                    <label lang="de">Primärer Button</label>
+                </option>
+                <option>
+                    <value>btn is--secondary</value>
+                    <label lang="en">Secondary button</label>
+                    <label lang="de">Sekundärer Button</label>
+                </option>
+                <option>
+                    <value>is--custom</value>
+                    <label lang="en">Custom button</label>
+                    <label lang="de">Eigener Button</label>
+                </option>
+            </store>
+            <options>
+                <helpText lang="en">Option to define the style of the button.</helpText>
+                <helpText lang="de">Option, welche den Style des Buttons definiert.</helpText>
+            </options>
+        </element>
+
         <element scope="shop" required="true" type="color">
             <name>backgroundColor</name>
             <label lang="en">Background color</label>
             <label lang="de">Hintergrundfarbe</label>
-            <value>#ffffff</value>
+            <value>#FFFFFF</value>
             <options>
                 <helpText lang="en">Option to define the background color of the button.</helpText>
                 <helpText lang="de">Option, welche die Hintergrundfarbe des Buttons definiert.</helpText>
@@ -72,15 +100,20 @@
             <name>buttonForm</name>
             <label lang="en">Button form</label>
             <label lang="de">Buttonform</label>
-            <value>square</value>
+            <value>is--rectangle</value>
             <store>
                 <option>
-                    <value>square</value>
-                    <label lang="en">Square</label>
-                    <label lang="de">Quadrat</label>
+                    <value>is--rectangle</value>
+                    <label lang="en">Rectangle</label>
+                    <label lang="de">Rechteck</label>
                 </option>
                 <option>
-                    <value>circle</value>
+                    <value>is--diamond</value>
+                    <label lang="en">Diamond</label>
+                    <label lang="de">Raute</label>
+                </option>
+                <option>
+                    <value>is--circle</value>
                     <label lang="en">Circle</label>
                     <label lang="de">Kreis</label>
                 </option>
@@ -149,6 +182,39 @@
             <options>
                 <helpText lang="en">Option to define the margin to left of the button.</helpText>
                 <helpText lang="de">Option, welche den Abstand nach links des Buttons definiert.</helpText>
+            </options>
+        </element>
+
+        <element scope="shop" required="true" type="text">
+            <name>width</name>
+            <label lang="en">Width of the button</label>
+            <label lang="de">Breite des Buttons</label>
+            <value>40px</value>
+            <options>
+                <helpText lang="en">Option to define the width of the button.</helpText>
+                <helpText lang="de">Option, welche die Breite des Buttons definiert.</helpText>
+            </options>
+        </element>
+
+        <element scope="shop" required="true" type="text">
+            <name>height</name>
+            <label lang="en">Height of the button</label>
+            <label lang="de">Höhe des Buttons</label>
+            <value>40px</value>
+            <options>
+                <helpText lang="en">Option to define the height of the button.</helpText>
+                <helpText lang="de">Option, welche den die Höhe des Buttons definiert.</helpText>
+            </options>
+        </element>
+
+        <element scope="shop" required="true" type="text">
+            <name>animationSpeed</name>
+            <label lang="en">Animation speed</label>
+            <label lang="de">Animationsgeschwindigkeit</label>
+            <value>400</value>
+            <options>
+                <helpText lang="en">Option to define the scroll speed to top.</helpText>
+                <helpText lang="de">Option, welche die Geschwindigkeit beim Hochscrollen definiert.</helpText>
             </options>
         </element>
     </elements>

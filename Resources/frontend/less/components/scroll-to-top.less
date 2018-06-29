@@ -1,20 +1,52 @@
 .scroll-to-top-link {
-    .unitize-width(40);
-    .unitize-height(40);
-    padding: 0;
+    padding: 0 !important;
     position: fixed;
-    z-index: @zindex-offcanvas;
+    z-index: 8000;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
 
     &.is--center {
-        left: 50%;
         .unitize(margin-left, -20);
+        left: 50%;
     }
 
-    &.is--rounded {
+    &.is--circle {
         .border-radius(50%);
+    }
+
+    &.is--diamond {
+        transform: rotate(-45deg);
+
+        i,
+        svg {
+            transform: rotate(45deg);
+        }
     }
 
     i {
         .unitize(line-height, 40);
+    }
+
+    i,
+    svg {
+        display: block;
+        margin: 0 auto;
+    }
+
+    svg {
+        .unitize-padding(10);
+        width: 100%;
+        height: 100%;
+    }
+
+    .is--ctl-forms &,
+    .is--ctl-tellafriend &,
+    .is--ctl-newsletter &,
+    .is--ctl-note &,
+    .is--ctl-checkout &,
+    .is--ctl-register &,
+    .is--ctl-account & {
+        display: none !important;
     }
 }
