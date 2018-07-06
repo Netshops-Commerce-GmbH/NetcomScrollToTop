@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
-    <label>Netshops - "Nach oben"-Button</label>
-    <version>1.0.0</version>
+    <label>Netshops - Hochscroll-Button</label>
+    <version>1.0.2</version>
     <link>https://www.netshops.de</link>
     <author>Netshops Commerce GmbH</author>
     <compatibility minVersion="5.3.0"/>
     <description>Integrates a configurable scroll to top button.</description>
     <copyright>Netshops Commerce GmbH</copyright>
+    <changelog version="1.0.2">
+        <changes>
+            Add styles for hiding button at top.
+        </changes>
+    </changelog>
+    <changelog version="1.0.1">
+        <changes>
+            Add javascript functionalities to change the scroll speed to top and also some styles.
+            Add more configurations to customize the button a bit more.
+        </changes>
+    </changelog>
     <changelog version="1.0.0">
         <changes>Release of this plugin.</changes>
     </changelog>
