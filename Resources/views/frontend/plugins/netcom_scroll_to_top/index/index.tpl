@@ -5,7 +5,7 @@
 
     {block name='frontend_index_footer_to_top_link'}
         <a href="#top"
-           class="scroll-to-top-link {$netcomScrollToTop.buttonStyle} {$netcomScrollToTop.buttonForm}{strip}
+           class="scroll-to-top-link is--hidden {$netcomScrollToTop.buttonStyle} {$netcomScrollToTop.buttonForm}{strip}
                 {if !$netcomScrollToTop.showButtonMobile} hidden--xs hidden--s{/if}
                 {if !$netcomScrollToTop.showButtonDesktop} hidden--l hidden--xl{/if}
                 {if $netcomScrollToTop.buttonPosition === 'center'} is--center{/if}
